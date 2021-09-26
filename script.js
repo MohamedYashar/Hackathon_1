@@ -1,6 +1,5 @@
 // Create elements and append inside body starts here
 
-
 // DIV ELEMENT1 TO DISPLAY
 const smallcontainer = document.createElement("div")
 smallcontainer.innerHTML = "Search your GIT HUB Details with your name"
@@ -12,19 +11,19 @@ document.body.appendChild(smallcontainer);
 const container1 = document.createElement('div')
 container1.className = 'container'
 
-
-
 // Create element and append here in container1
 const inputBox = document.createElement('input')
 document.body.appendChild(inputBox)
 container1.appendChild(inputBox)
-
 
 // Create element and append here in container1
 const search = document.createElement('button')
 search.innerHTML = 'Search'
 container1.appendChild(search)
 document.body.appendChild(container1)
+
+// DIV ELEMENT2 ENDS HERE
+
 
 
 // Async function starts here
@@ -87,10 +86,6 @@ function appendData(data) {
 
 
     for (let i = 0; i < data.length; i++) {
-
-
-       
-
 
         // CREATE ELEMENT TO PUT IN CONTAINER 3
 
