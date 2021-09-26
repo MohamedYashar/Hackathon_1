@@ -2,7 +2,7 @@
 
 // DIV ELEMENT1 TO DISPLAY
 const smallcontainer = document.createElement("div")
-smallcontainer.innerHTML = "Search your GIT HUB Details with your name"
+smallcontainer.innerHTML = "Search GIT HUB details with your Name"
 smallcontainer.id = "smallcontainer"
 document.body.appendChild(smallcontainer);
 
