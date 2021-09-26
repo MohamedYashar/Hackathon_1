@@ -1,3 +1,4 @@
+
 *{
     margin: 0px;
     padding: 0px;
@@ -24,8 +25,7 @@
     font-weight: bolder;
     font-size: 40PX;
     font-family: Georgia, 'Times New Roman', Times, serif;
-    color: azure;
-    margin: 30px;
+    margin: 20px;
     border: solid 1px black;
     background: linear-gradient(to left, blue, red);
     width: 80%;
@@ -34,12 +34,19 @@
 
 }
 
+input{
+    border-radius: 20px;
+
+}
 
 
 button {
     width: 150px;
     padding: 20px;
     background: tomato;
+    font-size: 20px;
+    font-weight: bolder;
+    border-radius: 50px;
 }
 
 
